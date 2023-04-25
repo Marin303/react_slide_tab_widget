@@ -3,7 +3,7 @@ import "./styles.css";
 
 const buttonWidth = 64;
 const tabWidth = 300;
-const tabHeaders = ["home", "lock", "settings"];
+const tabHeaders = ["home", "lock", "settings", "groups", "table_view"];
 /* const tabContent = [];*/
 export const Widget = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -50,6 +50,18 @@ export const Widget = () => {
           </div>
           <div>
             <h2>Settings</h2>
+            <p>
+              This is the tab content, you can put anything you like in here.
+            </p>
+          </div>
+          <div>
+            <h2>Chat</h2>
+            <p>
+              This is the tab content, you can put anything you like in here.
+            </p>
+          </div>
+          <div>
+            <h2>Table</h2>
             <p>
               This is the tab content, you can put anything you like in here.
             </p>
